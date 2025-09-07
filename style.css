@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #f0f0f0; /* Warna latar belakang di luar gambar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.undangan-container {
+    max-width: 800px; /* Atur lebar maksimal undangan sesuai desainmu */
+    width: 100%;
+    margin: 20px 0;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.undangan-container img {
+    width: 100%;
+    display: block; /* Menghilangkan spasi bawah gambar */
+}
+
+.fitur-tambahan {
+    max-width: 800px;
+    width: 90%;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
